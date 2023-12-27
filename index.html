@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href = "styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class = "navbar">
+                <div class = "logo-container">
+                    <img src="images\S logo.png" class = "logo">
+                    <div class = "logo-text">aliq Gowhar</div>
+                </div>
+
+                <div class = "nav-items">
+                    <div><a href= "#projects">Projects</a></div>
+                    <div><a href= "#skills">Skills</a></div>
+                    <div><a href ="#contactme">Contact Me</a></div>
+                </div>
+            </div>
+
+            <div class="hero-section">
+                <div class="faded-text">Saliq Gowhar</div>
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi there!</div>
+                    
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class ="role"></span>
+                    </div>
+    
+                    <div class="hero-section-description">
+                        I am a Junior at NITK and this is my portfolio website. Here you'll learn about my journey as an aspiring Software Developer.
+                    </div>
+    
+                    <a href="https://drive.google.com/file/d/1bVoCuO87v40GT-hAh51ggQtdgiFakTaz/view?usp=sharing" class="btn" target="_blank">Resume</a>
+                </div>
+    
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="images\dots.png" alt="">
+                      </div>
+                      <div class="absolute icons icon-cube">
+                        <img src="images\cube.png" alt="">
+                      </div>
+                      <div class="absolute icons icon-circle">
+                        <img src="images\circle.png" alt="">
+                      </div>
+                      <div class="absolute icons icon-zigzag">
+                        <img src="images\zigzags.png" alt="">
+                      </div>
+                      <div class="absolute icons icon-plus">
+                        <img src="images\plus.png" alt="">
+                      </div>
+                      <div class="user-image">
+                        <img src="images\UserImage3.jpg" alt="">
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+
+                <div class="project-card" id = "project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images\huggingface.svg" alt="">
+                            <img class="project-skill" src="images\numpy.svg" alt="">
+                            <img class="project-skill" src="images\Git.svg" alt="">
+                            <img class="project-skill" src="images\Github.svg" alt="">
+                            <img class="project-skill" src="images\jupyter.png" alt="">
+                            <img class="project-skill" src="images\Python.png" alt="">
+                            <img class="project-skill" src="images\tf1.png" alt="">
+                        </div>
+
+                        <h2 class="project-heading">IndoSum</h2>
+                        <p class="project-subHeading"> An Attention mechanism and Transformer based Indian Language Text Summarizer with novel approach utilising Extractive Summarization.</p>
+                        <div class="btn-grp">
+                            <a href="https://github.com/saliq5/IndoSum-Indian_Language_Summarization.git" target="_blank" class = "btn">Github Link</a>
+                            <!-- <a href="https://github.com/saliq5/IndoSum-Indian_Language_Summarization.git" target="_blank">
+                                <i title = "Github Link" class="fa-brands fa-github icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id = "project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right" id="right1">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images\ibm.svg" alt="">
+                            <img class="project-skill" src="images\qiskit.png" alt="">
+                            <img class="project-skill" src="images\Python.png" alt="">
+                            <img class="project-skill" src="images\jupyter.png" alt="">
+                            <img class="project-skill" src="images\numpy.svg" alt="">
+                            <img class="project-skill" src="images\Git.svg" alt="">
+                            <img class="project-skill" src="images\Github.svg" alt="">
+                        </div>
+
+                        <h2 class="project-heading">QuantumZip</h2>
+                        <p class="project-subHeading">  Efficient encoding and decoding of images for Quantum Computers using Flexible Representation of Quantum Images (FRQI)</p>
+                        <div class="btn-grp">
+                            <a href="https://github.com/saliq5/QuantumZip-Encoding_and_Decoding_on_Quantum_Systems.git" target="_blank" class = "btn">Github Link</a>
+                            <!-- <a href="https://github.com/saliq5/QuantumZip-Encoding_and_Decoding_on_Quantum_Systems.git" target="_blank">
+                                <i title = "Github Link" class="fa-brands fa-github icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card" id = "project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images\tf1.png" alt="">
+                            <img class="project-skill" src="images\pytorch.png" alt="">
+                            <img class="project-skill" src="images\Python.png" alt="">
+                            <img class="project-skill" src="images\jupyter.png" alt="">
+                            <img class="project-skill" src="images\numpy.svg" alt="">
+                            <img class="project-skill" src="images\Git.svg" alt="">
+                            <img class="project-skill" src="images\Github.svg" alt="">
+                        </div>
+
+                        <h2 class="project-heading">ParallelVision</h2>
+                        <p class="project-subHeading"> A Computer Vision application using Data Parallelism and Data Distributed Parallelism for Parallel Computing.</p>
+                        <div class="btn-grp">
+                            <a href="https://github.com/saliq5/ParallelVision-Parallelism_in_Computer_Vision.git" target="_blank" class = "btn">Github Link</a>
+                            <!-- <a href="https://github.com/saliq5/ParallelVision-Parallelism_in_Computer_Vision.git" target="_blank">
+                                <i title = "Github Link" class="fa-brands fa-github icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card" id = "project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right" id="right2">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images\Python.png" alt="">
+                            <img class="project-skill" src="images\numpy.svg" alt="">
+                            <img class="project-skill" src="images\jupyter.png" alt="">
+                            <img class="project-skill" src="images\mtp.png" alt="">
+                            <img class="project-skill" src="images\Git.svg" alt="">
+                            <img class="project-skill" src="images\Github.svg" alt="">
+                        </div>
+
+                        <h2 class="project-heading">GateQuest</h2>
+                        <p class="project-subHeading"> Gateway Selection in Cyber-Physical systems using Non-Cooperative Game Theory.</p>
+                        <div class="btn-grp">
+                            <a href="https://github.com/saliq5/GateQuest-Gateway_Selection_in_CPS.git" target="_blank" class = "btn">Github Link</a>
+                            <!-- <a href="https://github.com/saliq5/GateQuest-Gateway_Selection_in_CPS.git" target="_blank">
+                                <i title = "Github Link" class="fa-brands fa-github icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id = "project5">
+                    <div class="project-number project-number-right">05</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images\tf1.png" alt="">
+                            <img class="project-skill" src="images\Python.png" alt="">
+                            <img class="project-skill" src="images\\HTML.png" alt="">
+                            <img class="project-skill" src="images\CSS.png" alt="">
+                            <img class="project-skill" src="images\mtp.png" alt="">
+                            <img class="project-skill" src="images\jupyter.png" alt="">
+                            <img class="project-skill" src="images\numpy.svg" alt="">
+                            <img class="project-skill" src="images\Git.svg" alt="">
+                            <img class="project-skill" src="images\Github.svg" alt="">
+                        </div>
+
+                        <h2 class="project-heading">EarlyPredict</h2>
+                        <p class="project-subHeading"> A ML application for Cardiac Disease Prediction using Voting Ensembles and Novel Feature Selection (OFSS).</p>
+                        <div class="btn-grp">
+                            <a href = "https://nitk-cdp.streamlit.app/" class = "btn" target="_blank">Visit App</a>
+                            <a href="https://github.com/saliq5/EarlyPredict-Cardiac_Disease_Prediction_using_OFSS.git" target="_blank">
+                                <i title = "Github Link" class="fa-brands fa-github icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card" id = "project6">
+                    <div class="project-number project-number-left">06</div>
+                    <div class="project-content project-content-right" id="right3">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images\tf1.png" alt="">
+                            <img class="project-skill" src="images\Python.png" alt="">
+                            <img class="project-skill" src="images\spotify.png" alt="">
+                            <img class="project-skill" src="images\mtp.png" alt="">
+                            <img class="project-skill" src="images\jupyter.png" alt="">
+                            <img class="project-skill" src="images\numpy.svg" alt="">
+                            <img class="project-skill" src="images\Git.svg" alt="">
+                            <img class="project-skill" src="images\Github.svg" alt="">
+                        </div>
+
+                        <h2 class="project-heading">Emotonic</h2>
+                        <p class="project-subHeading"> A Facial emotion based Music Recommender System with integrated Spotify API for direct playlist creation.</p>
+                        <div class="btn-grp">
+                            <a href="https://github.com/saliq5/Emotonic-Emotion_based_Music_Recommenation_System.git" target="_blank" class = "btn">Github Link</a>
+                            <!-- <a href="https://github.com/saliq5/Emotonic-Emotion_based_Music_Recommenation_System.git" target="_blank">
+                                <i title = "Github Link" class="fa-brands fa-github icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+        </div>
+
+        <div id ="skills" class="skills-container container">
+            <div class="skill-fade-text">
+                About Me
+            </div>
+
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class ="caps">M</span>e and
+                    <br/>
+                    My Tech Stack
+                </h2>
+
+                <div class = "skill-subheading">
+                    <p>
+                        As a Junior at the National Institute of Technology Karnataka, I'm passionate about the ever-evolving world of technology. Currently pursuing a Bachelors in Artificial Intelligence, I'm on a journey to explore the endless possibilities that technology offers. With a deep fascination for emerging tech trends and their impact on our daily lives, I'm dedicated to staying at the forefront of innovation and contributing to the tech ecosystem.
+                    </p>
+                    <p>
+                        I am proficient in C, C++ and Python with a strong hold on Data Stuctures and Algorithms. My areas of interest include Software Development, Machine Learning, Deep Learning, Data Analytics, NLP and Database Management Systems.
+                    </p>
+                    <p>I am a keen learner, hardworker and a good problem solver with a strong work ethic. I have done several projects in the field of Machine Learning, Deep Learning, NLP, Computer Vision and Quantum Computing and also have a publication in the field of NLP. A glimpse of my tech stack is given on the right side.</p>
+                </div>
+            </div>
+
+            <div class="skill-container-right">
+                <img class="blob-style" src="images\blob vector.png" alt="">
+                <img class="skills-logo" src="images\numpy.svg" alt="">
+                <img class="skills-logo" src="images\Git.svg" alt="">
+                <img class="skills-logo" src="images\C.png" alt="">
+                <img class="skills-logo" src="images\c++.png" alt="">
+                <img class="skills-logo" src="images\CSS.png" alt="">
+                <img class="skills-logo" src="images\HTML.png" alt="">
+                <img class="skills-logo" src="images\huggingface.svg" alt="">
+                <img class="skills-logo" src="images\ibm.svg" alt="">
+                <img class="skills-logo" src="images\jupyter.png" alt="">
+                <img class="skills-logo" src="images\mtp.png" alt="">
+                <img class="skills-logo" src="images\Python.png" alt="">
+                <img class="skills-logo" src="images\pytorch.png" alt="">
+                <img class="skills-logo" src="images\qiskit.png" alt="">
+                <img class="skills-logo" src="images\tf1.png" alt="">
+                <img class="skills-logo" src="images\js.png" alt="">
+                <img class="skills-logo" src="images\pandas.svg" alt="">
+                <img class="skills-logo" src="images\sql.png" alt="">
+                <img class="skills-logo" src="images\sklearn.png" alt="">
+                <img class="skills-logo" src="images\ocv.png" alt="">
+                <img class="skills-logo" src="images\slit.png" alt="">
+            </div>
+
+
+        </div>
+
+        <div class="contactus-form-container" id="contactme">
+            <div class="container">
+                <h1 class = "contactus-heading">Contact Me</h1>
+                <h3 class="contactus-sub-heading">
+                    Questions, thoughts, or just want to say Hello? 
+                </h3>
+
+                <div class="cus-form-container">
+                    <form class ="myform" action="mailto:saliqgowhar7@gmail.com">
+                        <div class ="formfield-container">
+                            <input class ="formfield" 
+                            type="text" 
+                            name="name" 
+                            id="fname" 
+                            placeholder="Enter your name" />
+
+                            <input class ="formfield" 
+                            type="email" 
+                            name="email" 
+                            id="femail" 
+                            placeholder="Enter your email address" />
+
+                            <textarea name ="message" 
+                            cols="30"
+                            rows="10"
+                            class="formfield formfield-textarea" 
+                            id="fmsg" 
+                            placeholder="Enter your message"></textarea>
+
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn" id="submit-btn" onclick="submitForm()">
+                                Send Message
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class ="footer-wrapper">
+                    <div class="footer-faded-text"> Saliq Gowhar</div>
+
+                    <div class="link-wrapper">
+                        <div class="foot-text">
+                            Thank you for visiting my Portfolio Website!
+                        </div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <a href="https://www.linkedin.com/in/saliq7/" target="_blank">
+                            <i class="fa-brands fa-linkedin icon"></i>
+                          </a>
+                          
+                          <a href="https://github.com/saliq5" target="_blank">
+                            <i class="fa-brands fa-github icon"></i>
+                          </a>
+                          
+                          <a href="https://twitter.com/_paradigmshift7" target="_blank">
+                            <i class="fa-brands fa-twitter icon"></i>
+                          </a>
+                          
+                          <a href="https://www.instagram.com/saliq9_/" target="_blank">
+                            <i class="fa-brands fa-instagram icon"></i>
+                          </a>
+                          
+                          <a href="saliqgowhar7@gmail.com">
+                            <i class="fa-regular fa-envelope icon"></i>
+                          </a>
+                          
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings:[
+                "Front End Developer.",
+                "Programmer.",
+                "AI Enthusiast.",
+                "Keen Learner."
+            ],
+            loop:true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+
+    <script>
+        function submitForm() {
+            // Perform form submission logic here (e.g., send data to server)
+
+            // Clear form fields
+            document.getElementById("fname").value = "";
+            document.getElementById("femail").value = "";
+            document.getElementById("fmsg").value = "";
+
+            // Change button text to "Message Sent"
+            document.getElementById("submit-btn").innerText = "Message Sent";
+        }
+    </script>
+</body>
+</html>
